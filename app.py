@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Gemini API sozlamalari (o'z API kalitingni kirit)
-genai.configure(api_key="SENIN_API_KALITING")
+genai.configure(api_key="API KEY")
 
 st.set_page_config(page_title="FocusZen", layout="wide")
 
